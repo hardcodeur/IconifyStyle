@@ -1,0 +1,47 @@
+<div class="container">
+	<div id="iconsTools" class="icons-tools">
+		<div class="row mt-4 mb-3" id="rowIconsSearch">
+			<div class="col">
+				<div class="form-group">
+					<div class="form-floating">
+						<input type="search" data-search-icons class="form-control" id="searchInput" placeholder="Search icons">
+						<label for="searchInput">
+							Search icons
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-4 mb-3" id="rowIconsEditCollection">
+			<div class="col-6">
+				<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+					<input type="radio" class="btn-check" data-icons-style="solid" name="btnradioIconsStyle" id="iconsStyleSolid" autocomplete="off" checked="">
+					<label class="btn btn-outline-primary" for="iconsStyleSolid">Solid</label>
+					<input type="radio" class="btn-check" data-icons-style="outline" name="btnradioIconsStyle" id="iconsStyleOutline" autocomplete="off">
+					<label class="btn btn-outline-primary" for="iconsStyleOutline">Outline</label>
+				</div>
+			</div>
+			<div class="col-6 text-end">
+				<div class="dropdown">
+					<button type="button" data-dropdown-download-collection class="btn dropdown-btn btn-secondary">
+						Download
+					</button>
+					<div class="dropdown-content list-group">
+						<button data-download-collection-style="solid" class="list-group-item list-group-item-action" type="button">
+							Solid
+							<span class="icon download-file-solid"></span>
+						</button>
+						<button data-download-collection-style="outline" class="list-group-item list-group-item-action" type="button">
+							Outline
+							<span class="icon download-file-outline"></span>
+						</button>
+						<button data-reset-collection class="list-group-item list-group-item-danger list-group-item-action">Reset</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row mt-5" id="rowIconsGrid">
+		<div class="grid" data-icons-grid></div>
+	</div>
+</div>

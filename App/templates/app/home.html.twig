@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+	<header>
+		{% include "component/_header.html.twig"%}
+	</header>
+	<main>
+		{% include "component/_iconsGrid.html.twig"%}
+	</main>
+{% endblock %}
+
+
+{% block javascripts %}
+	<script type="module" src="{{asset("js/home.js")}}"></script>
+{% endblock %}
