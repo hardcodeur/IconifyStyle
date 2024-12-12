@@ -65,8 +65,8 @@ symfony server
 
 - Symfony 6
 - Vanilla Js
-- (bootswatch)[https://bootswatch.com] thème (Minty)[https://bootswatch.com/minty/]
-- (Icones)[https://github.com/tailwindlabs/heroicons] auteur (@steveschoger)[@steveschoger]
+- [bootswatch](https://bootswatch.com) thème [Minty](https://bootswatch.com/minty/=
+- [Icones](https://github.com/tailwindlabs/heroicons) auteur [@steveschoger](@steveschoger)
 
 ## Contribuer
 Les contributions sont les bienvenues ! N'hésitez pas à soumettre des demandes de tirage (pull requests) ou à signaler des problèmes (issues).
