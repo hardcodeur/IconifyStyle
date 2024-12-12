@@ -45,20 +45,20 @@ span.icon-example{
 1. Clonez le dépôt :
 
 ```bash
-   git clone https://github.com/hardcodeur/IconifyStyle.git
+git clone https://github.com/hardcodeur/IconifyStyle.git
 ```
 
 2. Installer les dépendance :
 
 ```bash
-    cd iconifystyle/App
-    composer install
+cd iconifystyle/App
+composer install
 ```
 
 3. Lancer le projet :
 
 ```bash
-    symfony server  
+symfony server  
 ```
 
 ## Contribuer
