@@ -1,6 +1,4 @@
-# IconifyStyle
-
-![Logo du projet](./media/IconifyStyle_logo.svg)
+# IconifyStyle ![Logo du projet](./media/IconifyStyle_logo.svg)
 
 ## Présentation du projet
 
