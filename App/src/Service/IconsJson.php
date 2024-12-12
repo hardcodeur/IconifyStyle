@@ -34,8 +34,7 @@ class IconsJson
     public function cssComplieur(array $downloadList, string $iconsStyle)
     {
         $svgList = $this->downloadIconsJson();
-        $randInt = date("His");
-        $filename = $this->slugger->slug("CSSHeroiconsPicker") . $randInt . "_" . $iconsStyle . '.css';
+        $filename = $this->slugger->slug("iconifystyle").'.css';
         $filepath = $this->temporaryDirectory . '/' . $filename;
 
         foreach ($downloadList as $iconslist) {
